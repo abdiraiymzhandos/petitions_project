@@ -2,7 +2,6 @@
 
 # Установка и запуск
 1. Клонируйте репозиторий:
-   ```bash
    git clone https://github.com/abdiraiymzhandos/petitions_project.git
    cd petitions_project
 2. Установите зависимости:
