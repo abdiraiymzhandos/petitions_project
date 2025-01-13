@@ -1,22 +1,25 @@
 # Petitions API
 
 # Установка и запуск
-Клонируйте репозиторий:
+1. Клонируйте репозиторий:
    ```bash
    git clone https://github.com/abdiraiymzhandos/petitions_project.git
    cd petitions_project
-Установите зависимости:
+2. Установите зависимости:
 pip install -r requirements.txt
 
-Выполните миграции:
+3. Выполните миграции:
 python manage.py migrate
 
-Запустите сервер разработки:
-python3 manage.py runserver
+4. Запустите сервер разработки:
+python manage.py runserver
 
-Тестирование API
+5. Используйте команды Docker:
+docker-compose up
+
+## Тестирование API
 Используйте Postman или cURL для тестирования следующих эндпоинтов:
-/api/petitions/ - CRUD для петиций
-/api/votes/ - Добавление/удаление голосов
-/api/token/ - Получение JWT токена
-/api/token/refresh/ - Обновление токена
+- /api/petitions/ - CRUD для петиций
+- /api/votes/ - Добавление/удаление голосов
+- /api/token/ - Получение JWT токена
+- /api/token/refresh/ - Обновление токена
