@@ -3,7 +3,7 @@
 # Установка и запуск
 Клонируйте репозиторий:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/abdiraiymzhandos/petitions_project.git
    cd petitions_project
 Установите зависимости:
 pip install -r requirements.txt
